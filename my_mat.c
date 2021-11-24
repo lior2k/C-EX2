@@ -43,7 +43,6 @@ void func1(int arr[10][10]) {
     //        printf("enter weight for %d,%d \n" ,i, j);
             scanf("%d", &x);
             arr[i][j] = x;
-            }
         }
     }
 }
