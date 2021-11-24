@@ -1,7 +1,5 @@
-int is_there_a_path(int);
+void func1(int arr[10][10]);
 
-void func1();
+int func2(int arr[10][10], int, int);
 
-void func2(int, int);
-
-void func3(int, int);
+int func3(int arr[10][10], int, int);
