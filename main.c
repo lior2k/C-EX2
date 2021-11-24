@@ -6,12 +6,10 @@ int main() {
     int i,j,ans;
     int arr[10][10];
     while (1) {
-    //    printf("enter a letter (A,B,C) \n");
         scanf("%c", &x);
         if (x == 'A') {
             func1(arr);
         } else if (x == 'B') {
-    //        printf("please enter i and j \n");
             scanf("%d%d", &i, &j);
             ans = func2(arr, i, j);
             if (ans == 1) {
@@ -20,7 +18,6 @@ int main() {
                 printf("False\n");
             }
         } else if (x == 'C') {
-    //        printf("please enter i and j \n");
             scanf("%d%d", &i, &j);
             ans = func3(arr, i, j);
             printf("%d\n", ans);
